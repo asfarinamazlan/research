@@ -1,28 +1,10 @@
-{
-  "data": [{
-    "type": "articles",
-    "id": "1",
-    "attributes": {
-      "title": "JSON API paints my bikeshed!",
-      "body": "The shortest article. Ever.",
-      "created": "2015-05-22T14:56:29.000Z",
-      "updated": "2015-05-22T14:56:28.000Z"
-    },
-    "relationships": {
-      "author": {
-        "data": {"id": "42", "type": "people"}
-      }
-    }
-  }],
-  "included": [
-    {
-      "type": "people",
-      "id": "42",
-      "attributes": {
-        "name": "John",
-        "age": 80,
-        "gender": "male"
-      }
-    }
-  ]
+{  
+   "en":{  
+      "frmPromotions.lblTitle":"La Juiceria - Pavilion",
+      "frmPromotions.lblSubtitle":"Valid from 19 December 2017 till 14 February 2018",
+      "frmPromotions.lblOpeningHrs":"Opens 9am - 10pm Daily",
+      "frmPromotions.rtxMain":"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.",
+      "com.couponCode":"COUPON CODE",
+      "com.tnc":"TERMS AND CONDITIONS"
+   }
 }
